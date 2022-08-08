@@ -18,7 +18,7 @@ acceptall = [""]
 
 
 def logo():
-    print("")
+    print("DDoS")
     try:
         print(" Target : " +str(url_main)+ ":" +str(port))
     except:
