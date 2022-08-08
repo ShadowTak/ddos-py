@@ -9,7 +9,6 @@ from sys import stdout
 from random import randint
 
 os.system("clear")
-os.system("figlet CODETK")
 
 useragents=[""]
 
