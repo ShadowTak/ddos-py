@@ -556,7 +556,7 @@ def start_mode():
 
 def choice_method_attack():
     global method_attack, name_method_attack
-    print("MODE Attack")
+    print("MODE Attack\n1 Normal\n2 Spam /?")
     method_attack = input("Choice Request [1/2]: ")
     if (method_attack == "1") or (method_attack == ""):
         name_method_attack = "Normal"
