@@ -10,18 +10,18 @@ from random import randint
 
 os.system("clear")
 
-useragents=["
-            'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/4.0; InfoPath.2; SV1; .NET CLR 2.0.50727; WOW64)',
-            'Mozilla/5.0 (compatible; MSIE 10.0; Macintosh; Intel Mac OS X 10_7_3; Trident/6.0)',
-            'Opera/12.0(Windows NT 5.2;U;en)Presto/22.9.168 Version/12.00',
-            'Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14',
-            'Mozilla/5.0 (Windows NT 6.0; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.14',
-            'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0) Opera 12.14',
-            'Opera/12.80 (Windows NT 5.1; U; en) Presto/2.10.289 Version/12.02',
-            'Opera/9.80 (Windows NT 6.1; U; es-ES) Presto/2.9.181 Version/12.00',
-            'Opera/9.80 (Windows NT 5.1; U; zh-sg) Presto/2.9.181 Version/12.00',
-            'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0)',
-            "AdsBot-Google ( http://www.google.com/adsbot.html)",
+useragents=[
+			'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/4.0; InfoPath.2; SV1; .NET CLR 2.0.50727; WOW64)',
+			'Mozilla/5.0 (compatible; MSIE 10.0; Macintosh; Intel Mac OS X 10_7_3; Trident/6.0)',
+			'Opera/12.0(Windows NT 5.2;U;en)Presto/22.9.168 Version/12.00',
+			'Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14',
+			'Mozilla/5.0 (Windows NT 6.0; rv:2.0) Gecko/20100101 Firefox/4.0 Opera 12.14',
+			'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0) Opera 12.14',
+			'Opera/12.80 (Windows NT 5.1; U; en) Presto/2.10.289 Version/12.02',
+			'Opera/9.80 (Windows NT 6.1; U; es-ES) Presto/2.9.181 Version/12.00',
+			'Opera/9.80 (Windows NT 5.1; U; zh-sg) Presto/2.9.181 Version/12.00',
+			'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0)',
+			"AdsBot-Google ( http://www.google.com/adsbot.html)",
 			"Avant Browser/1.2.789rel1 (http://www.avantbrowser.com)",
 			"Baiduspider ( http://www.baidu.com/search/spider.htm)",
 			"BlackBerry7100i/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/103",
